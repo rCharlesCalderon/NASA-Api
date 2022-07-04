@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-image: url(img/Earth.png);
+    background-repeat: no-repeat;
+    
+}
+
+#nasaContainer {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.logo{
+    
+    height: 100px;
+    width: 120px;
+}
+
+h1 {
+    font-style: Trebuchet;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+h3{ 
+    font-size: 23px;
+    color: white;
+}
+
+#selectDate {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+}
+
+#calendar {
+    height: 30px;
+    
+}
+
+#getMedia {
+    outline: none;
+    border: 0px solid transparent
+}
+
+#about{
+    display: flex;
+    height: 760px;
+    width: 100%;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+#text {
+    color:white;
+    width: 40%;
+}
+
